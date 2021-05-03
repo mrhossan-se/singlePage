@@ -1,0 +1,413 @@
+
+.fixedTopBanner{
+    background-image: url("../images/notebook-336634_960_720.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;  
+    background-position: center;
+    background-size: cover;
+}
+.fixedTopBannerOverlay{
+    min-height: 500px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+}
+.topContent{
+    margin-top: 12rem;
+}
+.courseDetialsContent{
+    margin-top: 8rem;
+}
+.topTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 54px;
+}
+.topSubTitle{
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+
+.service{
+    margin: 80px 0px 50px 0px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 700px;
+    color: #0288d1;
+    font-size: 44px;
+}
+.serviceComponent{
+    height: 28rem;
+    padding-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px 0 rgba(0,115,230,0.2);   
+}
+.serviceComponent:hover{  
+    box-shadow: 0 0 20px 0 rgba(0,115,230,0.2);
+}
+.serviceHeading{
+    margin: 15px 0px 15px 0px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 600px;
+    font-size: 26px;
+    color: #000;
+}
+.serviceContent{
+    margin-bottom: 15px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    color: #9E9E9E;   
+}
+
+
+.navTitle{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Montserreat', sans-serif;
+    color: #f8f5f5 !important;
+    text-decoration: none;
+}
+.navTitle:hover{
+    text-decoration: none;
+}
+.navTitleScroll{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Montserreat', sans-serif;
+    color: #0288d1 !important;
+    text-decoration: none;
+}
+.navTitleScroll:hover{
+    text-decoration: none;
+}
+.navBackground{
+ background-color: rgba(00, 00, 00, 0)!important;
+ transition: bacground-Color 400ms linear;
+ -o-transition: bacground-Color 400ms linear;
+ -moz-transition: bacground-Color 400ms linear;
+ -webkit-transition: bacground-Color 400ms linear;
+}
+.navBackgroundScroll{
+    background-color: rgba(255, 255, 255) !important;
+    transition: bacground-Color 400ms linear;
+ -o-transition: bacground-Color 400ms linear;
+ -moz-transition: bacground-Color 400ms linear;
+ -webkit-transition: bacground-Color 400ms linear;  
+ box-shadow: 0 0 4px 0 rgb(211,211,211);
+}
+ .navItem{
+    color: #ffffff; 
+     text-decoration: none!important;
+     font-family: 'Montserreat', sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+ }
+ 
+ .navItemScroll{
+    color: #000000;
+    text-decoration: none!important;
+    font-family: 'Montserreat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.technologyContent{
+ text-align: justify;
+ font-family: 'Raleway', sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ color: #000000;
+ padding: 10px 0px 0px 50px;
+}
+
+
+.summaryBanner{
+     background-image: url("../images/grapic.png"); 
+    background-repeat: no-repeat;
+    min-height: 465px;
+    width: 100%;  
+    background-position: center;
+    background-size: cover;
+}
+.summaryBannerOverlay{
+    min-height: 380px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+}
+.summaryProjectNum{
+  font-weight: 600;
+  color: rgb(00, 115, 230);
+  font-size: 40px;
+}
+.summaryProjectTitle{
+    color: #ffffff;
+    font-size: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;  
+}
+.sammaryRow{
+    margin-top: 15%;
+}
+.summaryCarde{
+    background-color: #ffffff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+   font-family: 'Montserreat', sans-serif;
+   font-weight: 400;
+   text-align: justify;
+}
+.SummaryCardTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.summaryCardeBullet{
+    font-size: 16px;
+    color: #0073e6;
+}
+
+.recentProject{
+    margin-top: 80px;
+}
+.recentProjectsCard{
+    padding: 5px 5px 5px 5px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    height: 350px;
+    border: none!important;
+    border-radius: 2px;  
+    margin: 10px 10px 10px 10px;
+   
+}
+.recentProjectsCard:hover{  
+    box-shadow: 0 0 20px 0 rgba(0,115,230,0.2);
+}
+.recentProCardTitle{
+   font-family: 'Montserreat', sans-serif; 
+   font-size: 20px;
+   font-weight: 600;
+}
+.recentProCardDes{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+ 
+ }
+
+ .courseTitle{
+     font-family: 'Montserreat', sans-serif;
+     font-size: 24px;
+     font-weight: 600;
+     margin-bottom: 10px;
+     text-align: justify;
+ }
+ .courseContent{
+    font-family: 'raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+    text-align: justify;   
+}
+.courseImg{
+   margin: 10px 0px;
+   border: 2px solid lightblue;
+   border-radius: 2px;
+}
+.crouseButton{
+    text-decoration: none;
+}
+.crouseButton:hover{
+    text-decoration: none;
+}
+
+
+.videoCart{
+    margin: 80px auto 50px auto;
+    background-color: #ffffff;
+    border: 2px solid lightgray;
+    box-shadow: 0 0 20px 0 rgba(0,115,230,0.2);
+    height: 400px;
+    padding: 6rem 3rem; 
+}
+.videoTitle{
+   font-size: 24px;
+   font-family: 'Montserreat', sans-serif;
+   font-weight: 600;
+   color: #0073e6;;
+   margin-bottom: 30px;
+}
+.videoDescription{
+    font-size: 14px;
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+ }
+
+
+ .videoButton{
+    font-size: 40px;
+    color: #0073e6;
+    cursor: pointer;
+    margin-top: 20px;
+ }
+ .videoButton:hover{
+    font-size: 40px;
+    color: #138f84;  
+   }
+ .circleImage{
+     margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #0073e6;
+ }
+
+
+ .footerSecktion{
+     margin-top: 100px;
+     box-shadow: 0 0 3px 0 rgba(0, 115, 230, 0.2);
+ }
+
+ .socialLink{
+    font-family:  'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none !important;
+ }
+ .footerInfo{
+    font-family:  'raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 8px;
+ }
+ .footerHedar{
+    font-family:  ' Montserreat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-style: italic;
+ }
+
+ 
+ .copyWreie{
+     padding: 20px 20px 20px 20px;
+     background-color: #0c7af0;     
+ }
+ .copyWriteLink{
+    font-size: 12px;
+    font-style: italic;
+    color: #ffffff;
+    font-family: Montserreat', sans-serif';
+    font-weight: 400;
+    text-decoration: none;
+ }
+ .copyWriteLink:hover{
+   color: #b1adad;
+   text-decoration: none;
+ }
+
+ 
+.fixedTopPage{
+    background-image: url("../images/read-3048651_960_720.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 350px;  
+    background-position: center center;
+    background-size: cover;
+}
+.fixedTopPageOverlay{
+    min-height: 350px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.topPage{
+    margin-top: 4rem;
+}
+.topPageTitle{
+    font-size: 28px;
+    font-weight: 600;   
+    font-family:  'raleway', sans-serif;
+    color: #ffffff;
+}
+
+.from-control:focus{
+    border-radius: 2px !important;
+    border-color: #0073e6 !important;
+    box-shadow:  0 0 4px 0 rgba(0, 115, 230,0.2) !important;
+}
+.contractInfo{
+
+    font-family:  'raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+ }
+ .contractHed{
+    margin: 80px 0px 20px 0px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 800px;
+    font-size: 30px;
+ }
+ .disCus{
+     margin-left: 100px;
+ }
+ .disCusNow{
+    margin: 80px 0px 50px 100px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 800px;
+    font-size: 30px;
+ }
+ .linkStyle {
+     color: white !important;
+     text-decoration: none !important;
+ }
+ .linkStyle:hover{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.courseTopPage{
+    background-image: url("../images/web.d45e6fbf.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 350px;  
+    background-position: center center;
+    background-size: cover;
+}
+.courseTopPageOverlay{
+    min-height: 350px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.coursedetialsTitle{
+    color: aliceblue;
+    font-size: 38px;
+    font-family: 'raleway';
+    font-weight: 700;
+    margin-top: 0px;
+}
+.courseDetialsSubTitle{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Montserreat', sans-serif;
+    font-weight: 400;
+}
+.courseList{
+  
+
+   font-family: 'raleway';
+   font-weight: 600px;
+}
+.courseUlList{
+    margin-left: -20px;
+}
